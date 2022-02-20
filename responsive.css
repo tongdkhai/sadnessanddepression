@@ -96,3 +96,66 @@
         width: 100% !important;
     }
 }
+
+@media only screen and (min-width :321px) and (max-width: 765px){
+    .navigation {
+        position: absolute;
+        top:120%;
+    }
+    .action {
+        position: absolute;
+        top:50%;
+        left: 65px;
+    }
+    .logo img {
+        right: 0px;
+        height: 100%;
+    }
+    .modifier {
+        transform: scale(65%) translateY(-50%);
+        transform-origin: top center;
+        margin-right: 0;
+    }
+    .modifier-board {
+        transform: scale(60%);
+        transform-origin: top right;
+        animation:none;
+    }
+    .action button {
+        margin: 0 5px;
+    }
+    .header {
+        padding: 0 0 0;
+    }
+    #tutorial {
+        transform: scale(80%) !important;
+        margin-top: -100px !important;
+    }
+    .slider-show {
+        margin-top: 30px !important;
+    }
+    .social-item--btn {
+        margin: 10px !important;
+        font-size: 1.2rem !important;
+    }
+    .about-us--footer button {
+        width: 50%;
+    }
+    #policy-privacy p {
+        margin: 10px !important;
+    }
+    /* pricing board */
+    #pricing-board {
+        flex-wrap: wrap;
+        height:80%;
+        overflow-y: auto !important;
+    }
+
+    #pricing-option {
+        width: 100% !important;
+    }
+    #web-family {
+        width: 100% !important;
+    }
+}
+
